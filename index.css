@@ -220,6 +220,22 @@ html,body{
 padding-bottom: 20px;
 padding-top: 30px;
 }
+.hero-button{
+padding-bottom: 20px;
+padding-top: 30px;
+}
+
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.hero-image img{
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
 
 .btn-primary{
     padding: 15px 20px;
