@@ -1615,6 +1615,41 @@ body.dark-mode .footer-bottom strong {
   line-height: 1.4;
 }
 
+/* Publication */
+  .publication-section {
+    padding: 50px 25px;
+  }
+
+  .publication-timeline {
+    padding-left: 35px;
+  }
+
+  .publication-card {
+    padding: 20px;
+  }
+
+  .publication-card .timeline-card-top {
+    flex-direction: column;
+  }
+
+  .publication-card .timeline-right {
+    text-align: left;
+  }
+
+  .publication-card .timeline-degree {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .publication-title {
+    font-size: 26px;
+  }
+
+.timeline-degree {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 /* Dark mode */
 body.dark-mode .publication-section {
   background-color: #13122e;
